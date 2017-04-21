@@ -1,4 +1,4 @@
-```cpp
+```ruby
 #include<iostream>
 using namespace std;
 
