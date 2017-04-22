@@ -26,6 +26,9 @@ void Merge(int *arr, int p, int q, int r){
 		arr[p + k] = arr2[j++];
 		k++;
 	}
+	
+	delete[] arr1;
+	delete[] arr2;
 }
 
 void MergeSort(int *arr,int p,int r){
